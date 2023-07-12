@@ -33,7 +33,7 @@ import com.demo.activitylifecycledemo.ui.theme.ActivityLifecycleDemoTheme
 class MainActivity : ComponentActivity() {
 
     companion object {
-        const val TAG = ">>>> MainActivity"
+        const val TAG = "MainActivity"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

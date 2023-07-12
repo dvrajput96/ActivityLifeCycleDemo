@@ -16,7 +16,7 @@ import com.demo.activitylifecycledemo.ui.theme.ActivityLifecycleDemoTheme
 class SecondActivity : AppCompatActivity() {
 
     companion object {
-        const val TAG = ">>>> SecondActivity"
+        const val TAG = "SecondActivity"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
