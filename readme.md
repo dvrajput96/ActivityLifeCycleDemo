@@ -1,4 +1,4 @@
-# Project Name: Activity Lifecycle Demo
+# Activity Lifecycle Demo
 
 ## Description:
 This project provides a demonstration of the activity lifecycle in Android development. It includes two activities: MainActivity and SecondActivity, where the lifecycle methods are implemented and logs are added to track the sequence of events during the lifecycle.
