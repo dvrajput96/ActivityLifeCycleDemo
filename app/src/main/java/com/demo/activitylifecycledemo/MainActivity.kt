@@ -39,6 +39,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d(TAG, "onCreate:")
+        // finish()
         setContent {
             ActivityLifecycleDemoTheme {
                 // A surface container using the 'background' color from the theme
@@ -60,6 +61,11 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        Log.d(TAG, "onNewIntent:")
     }
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
